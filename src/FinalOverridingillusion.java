@@ -18,7 +18,7 @@ class OverridingPrivate extends WithFinals{
 	}
 }
 
-public class FinalOverridingillusion{
+public class FinalOverridingIllusion{
 	public static void main(String[] args){
 		OverridingPrivate op = new OverridingPrivate();
 		op.f();
