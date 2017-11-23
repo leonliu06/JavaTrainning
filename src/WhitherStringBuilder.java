@@ -31,3 +31,6 @@ public class WhitherStringBuilder{
         System.out.println(System.currentTimeMillis() - cur1);
 	}
 }
+
+
+
