@@ -17,3 +17,6 @@ public class Equivalence{
 class Value{
 	int i;
 }
+
+
+

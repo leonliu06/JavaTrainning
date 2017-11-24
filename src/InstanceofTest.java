@@ -24,3 +24,6 @@ public class InstanceofTest{
 		System.out.println(impl instanceof Impl);
 	}
 }
+
+
+
