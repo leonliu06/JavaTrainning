@@ -26,8 +26,8 @@ public class FinalOverridingIllusion{
 		// You can upcast
 		WithFinals wf = op;
 		// But you can't call the methods:
-		//wf.f();
-		//wf.g();
+		wf.f();
+		wf.g();
 	}
 }
 /* Output:
