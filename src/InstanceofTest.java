@@ -7,9 +7,13 @@ class Impl implements Interf{}
 
 public class InstanceofTest{
 	public static void main(String[] args){
-		Super sup = new Sub();
+		Super sup = new Super();
 		System.out.println(sup instanceof Super);
-		System.out.println(sup instanceof Sub);
+		System.out.println(sup instanceof Sub);		// false
+		
+		Super sup1 = new Sub();
+		System.out.println(sup1 instanceof Super);
+		System.out.println(sup1 instanceof Sub);
 
 		Sub sub = new Sub();
 		System.out.println(sub instanceof Super);
